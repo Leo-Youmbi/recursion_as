@@ -1,6 +1,7 @@
-def func3(n):
+#A function that prints numbers from n to 0 using recursion
+def func1(n):
     if n==0: 
         return n
-    return f"{n}\n{func3(n-1)}"
+    return f"{n}\n{func1(n-1)}"
 
-print(func3(10))
+print(func1(10))

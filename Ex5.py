@@ -1,6 +1,8 @@
-def func5(string):
+#A function that reverse a string using recursion 
+def rev(string):
     n = len(string)
-    if len(string) == 1: return string 
-    return func5(string[1:])+string[0]
+    if len(string) == 1: 
+        return string 
+    return rev(string[1:])+string[0]
 
-print(func5(string="Apple"))
+print(rev(string="Apple"))

@@ -1,3 +1,4 @@
+#A function that checks if a number is prime using recursion
 def isprime(n,i=None):
     if i == None:
         i = n-1
